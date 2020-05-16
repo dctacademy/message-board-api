@@ -5,6 +5,6 @@
 3. run `npm install`
 4. run `node index.js`
 
-| method | url | action |
-|-----|-------|--------|
-| GET | /messages | lists all messages | 
+| method | url | action | request | response | auth |
+|-----|-------|--------|---------|------| ------|
+| GET | /messages | lists all messages | - | empty array or array of objects | no | 

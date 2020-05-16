@@ -11,4 +11,4 @@
 | POST | /messages | create a message | body - string | id - number, body - string, createdAt - date | no |
 | GET | /messages/:id | get a message | - | body - string | id - number, body - string, createdAt - date | no |
 | PUT | /messages/:id | update a message | body - string | id - number, body - string, createdAt - date | no |
-| DELETE | /messages/:id | delete a message | id - number | no |
+| DELETE | /messages/:id | delete a message | id - number | - | no |

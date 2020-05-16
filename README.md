@@ -5,6 +5,8 @@
 3. run `npm install`
 4. run `node index.js`
 
+## REST API's
+
 | method | url | action | request | response | auth |
 |-----|-------|--------|---------|------| ------|
 | GET | /messages | lists all messages | - | empty array or array of objects | no | 

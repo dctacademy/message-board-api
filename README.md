@@ -8,5 +8,5 @@
 | method | url | action | request | response | auth |
 |-----|-------|--------|---------|------| ------|
 | GET | /messages | lists all messages | - | empty array or array of objects | no | 
-| POST | /messages | create a message | { body: 'message body' } | { id: 1243, body: 'message body', createdAt: '2020/02/02' } | no |
-| GET | /messages/:id | get a message | - | { id: 1243, body: 'message body', createdAt: '2020/02/02' } | no |
+| POST | /messages | create a message | body - string | id - number, body - string, createdAt - date | no |
+| GET | /messages/:id | get a message | - | body - string | id - number, body - string, createdAt - date | no |

@@ -5,5 +5,6 @@
 3. run `npm install`
 4. run `node index.js`
 
-| method | url | action | response |
-|-----|-------|--------|-------|
+| method | url | action |
+|-----|-------|--------|
+| GET | /messages | lists all messages | 
